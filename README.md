@@ -1,61 +1,146 @@
-🏠 Dubai House Price Prediction Dashboard
+📌 Project Title: Dubai House Price Prediction & Analytics Dashboard
+📘 Project Description
 
-This Power BI project provides insights into house listings and price trends in Dubai, helping users understand the real estate market across different categories, neighborhoods, and property features.
+The Dubai House Price Prediction & Analytics Dashboard is an interactive Power BI project designed to analyze real estate market trends, identify pricing patterns, and support informed decision-making for buyers, sellers, and real estate investors.
+This dashboard transforms raw housing data into a powerful visual system that provides insightful KPIs, charts, and trend analysis across different property categories and neighborhoods.
 
-📊 Project Overview
+The project focuses on understanding how factors such as square footage, bedrooms, bathrooms, property age, and neighborhood influence property prices in Dubai. It also segments properties into distinct categories—Budget, Mid-Range, and High-End—to provide clearer market segmentation insights.
 
-The Dubai House Price Prediction Dashboard analyzes property data to identify patterns and trends influencing house prices. It showcases how property prices vary based on location, category, size, and features (bedrooms & bathrooms).
+🎯 Project Objectives
 
-⚙ Tools Used
+To analyze real estate pricing trends within Dubai’s housing market.
 
-Power BI Desktop – For data cleaning, visualization, and interactive dashboard creation
+To predict and compare property prices across different neighborhoods.
 
-Excel / CSV Data Source – For importing and structuring raw housing data
+To study the relationship between house features (SqFt, Bedrooms, Bathrooms) and price.
 
-🧭 Business Insights Market Distribution
+To categorize listings into Budget, Mid-Range, and High-End segments.
 
-Listings are evenly split between Budget (34%), Mid-Range (33%), and High-End (33%) categories.
+To build an interactive dashboard for dynamic filtering and exploration.
 
-💰 Pricing Overview
+📊 Key Performance Indicators (KPIs)
 
-Average Price: $224.83K
+Your dashboard highlights the following major KPIs:
 
-Price per Sqft: $113.31
+Most Expensive Property – 492.20K
 
-Most Expensive Property: $492.20K
+Average Price – 224.83K
 
-🏘Neighborhood Insights
+Total Listings – 50K
 
-Urban areas show the highest property prices and demand.
+Average Price per Sqft – $113.31
 
-Suburb and Rural properties offer more affordable options.
+Oldest Property Age – 75 years
 
-💡 Key Insights
+These KPIs give users a high-level overview of the market’s overall cost structure and inventory size.
 
-Balanced Market: Equal opportunities for buyers across all categories.
+📍 Dashboard Features
+1. Filters Panel
 
-Urban Premium: Urban locations command higher prices, indicating stronger investment value.
+Users can segment data by:
 
-Redevelopment Potential: Properties up to 75 years old can be modernized for better returns.
+Bedrooms
 
-📈 Suggested Actions
+Bathrooms
 
-Invest in Urban Renovations: Focus on older urban properties for value appreciation.
+Neighborhood (Urban, Suburb, Rural)
 
-Target Mid-Range Buyers: The mid-range market (~33% of listings) balances demand and affordability.
+Listing Category (Budget, Mid-Range, High-End)
 
-Evaluate with Price per Sqft: Use $113.31 per sqft as a benchmark for property valuation.
+These interactive slicers make the dashboard highly customizable.
 
-Diversify Investments: Mix High-End Urban and Budget Suburban properties to balance risk and return.
+2. Average Price by Neighborhood
 
-🚀 How to Use
+A treemap chart shows how housing prices vary between:
 
-Open the .pbix file in Power BI Desktop
+Urban
 
-Connect to the data source if required
+Suburb
 
-Explore visuals interactively using filters for neighborhood, category, and price range
+Rural
 
-🧾 Author
+This helps identify which areas are more or less expensive.
 
-Poovarasan M 📍 Data Analyst | Power BI & Excel Projects
+3. Number of Listings by Neighborhood
+
+A horizontal bar chart visualizes listing distribution across regions, showing where most properties are concentrated.
+
+4. Distribution of Listing Category
+
+A pie chart displays how total listings are divided among:
+
+High-End
+
+Budget
+
+Mid-Range
+
+This shows the market balance within the dataset.
+
+5. Square Feet vs Price Analysis
+
+A scatter plot analyzing the relationship between SquareFeet and Price for each property category.
+This helps understand how size influences cost and how different price ranges compare.
+
+6. Average Price by Year
+
+A line chart showing year-wise housing price trends, helping identify:
+
+Growth patterns
+
+Market fluctuations
+
+Annual highs and lows
+
+📈 Insights Generated (Examples)
+
+Urban areas tend to have the highest average property prices, while rural areas remain more affordable.
+
+All three categories—Budget, Mid-Range, and High-End—have near-equal distribution, reflecting a balanced market dataset.
+
+Square footage shows a positive correlation with price—larger properties cost significantly more.
+
+Certain years show noticeable price spikes, indicating strong demand or market shifts.
+
+Older properties (up to 75 years old) still exist in the dataset but may not drastically influence pricing.
+
+🛠 Tools & Technologies Used
+
+Power BI Desktop
+
+DAX (Data Analysis Expressions)
+
+Data Modeling
+
+Power Query for Data Cleaning
+
+Interactive Visualizations
+
+KPI Cards, Treemap, Pie Chart, Bar Chart, Scatter Plot, Line Graph
+
+📦 Dataset Features
+
+The dataset contains key fields such as:
+
+Price
+
+SquareFeet
+
+Bedrooms
+
+Bathrooms
+
+Neighborhood
+
+Category
+
+Property Age
+
+Listing Type
+
+These inputs are used to perform statistical and visual analysis.
+
+📌 Conclusion
+
+This Dubai house price prediction dashboard provides a clear, interactive, and data-driven understanding of the real estate market.
+By combining descriptive analytics with visual storytelling, the project supports better decision-making for real estate professionals, investors, and researchers.
